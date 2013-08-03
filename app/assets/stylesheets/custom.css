@@ -25,6 +25,7 @@ padding: 0 0.7em;
 white-space: nowrap;
 }
 ul.navigation {
+	float:right;
 margin: 0;
 }
 .navigation li {
@@ -64,8 +65,10 @@ padding: 20px;
 text-align: center;
 margin-top: 10px;
 }
-/*
+
 #footer .navigation {
 float: none;
 }
-*/
+a:link{
+	text-decoration: none;
+}

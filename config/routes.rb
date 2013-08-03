@@ -4,7 +4,7 @@ SampleApp::Application.routes.draw do
   get "pages/contact"
   get "pages/index"
   match '/pages' => 'pages#home'
-
+  match '/' => 'pages#home'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
